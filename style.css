@@ -1,0 +1,75 @@
+body{
+    background-color: #87CEEB;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.sousTitre{
+    color: #ccac00;
+    font-size: xx-large;
+}
+#sousTitre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.piano{
+    display: flex;
+    margin-left: 13%;
+}
+.Song{
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    width: 33%;
+    height: 33%;
+    border-radius: 10%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.touch{
+    width: 200px;
+    height : 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+}
+.play{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display:flex;
+    justify-content:center;
+}
+h3{
+    display:flex;
+    justify-content:center;
+    font-size: 1.5em;
+}
+h4{
+    display:flex;
+    justify-content:center;
+    font-size: 1.5em;
+}
+.YourSong{
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    width: 91%;
+    height: 33%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+#last{
+    margin-top: 6%;
+}

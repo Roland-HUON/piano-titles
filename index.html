@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--affichage-->
+        <meta name="description" content="jeu piano title sous format html/css/js"><!--petit résumer/description qui s'affichera sur google dans la recherche, il s'agit aussi de mot-lien-->
+        <title>Jeu piano title</title><!--ce qui va s'afficher au niveau de l'onglet--> 
+        <link rel="shortcut icon" href="img/img.jfif" type="image/x-icon"><!--image de l'icône qui apparaîtra au niveau de l'onglet-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="beforeEffect">Prêt à jouer avec de la musique?</h1>
+            <p class="sousTitre" id="sousTitre">Clique ici pour jouer : Laissez moi y jouer !!!</p>
+        </header>
+        <main>
+            <h2>Fly Up - Easy</h2>    
+            <audio class="flyUp" src="js/fichierMusical/PremierSong/flyup.mp3"></audio>
+            <div class="piano">
+                <div class="Song" id="FU">
+                    <div class="touch" id="Q"></div>
+                    <div class="touch" id="S"></div>
+                    <div class="touch" id="Z"></div>
+                    <div class="touch" id="D"></div>
+                </div>
+                <div>
+                    <div class="score" id="first">
+                        <p>Votre score est de :</p>
+                    </div>
+                    <div class="button" id="flyup">
+                        <p class="play" id="first">Play</p>
+                    </div>
+                </div>
+            </div>
+            <h3>Ignite - Medium</h3>
+            <audio class="Ignite" src="js/fichierMusical/DeuxiemeSong/Ignite.mp3"></audio>
+            <div class="piano">
+                <div class="Song" id="IG">
+                    <div class="touch" id="QQ"></div>
+                    <div class="touch" id="SS"></div>
+                    <div class="touch" id="ZZ"></div>
+                    <div class="touch" id="DD"></div>
+                </div>
+                <div>
+                    <div class="score" id="Igni">
+                        <p>Votre score est de :</p>
+                    </div>
+                    <div class="button" id="Ignite">
+                        <p class="play" id="second">Play</p>
+                    </div>
+                </div>
+            </div>
+            <h4>You turn</h4>
+            <audio class="DOAAA" src="js/fichierMusical/DernierSong/DO.mp4"></audio>
+            <audio class="RE" src="js/fichierMusical/DernierSong/Ré.mp4"></audio>
+            <audio class="MI" src="js/fichierMusical/DernierSong/Mi.mp4"></audio>
+            <audio class="FA" src="js/fichierMusical/DernierSong/Fa.mp4"></audio>
+            <audio class="SOL" src="js/fichierMusical/DernierSong/Sol.mp4"></audio>
+            <audio class="laAAA" src="js/fichierMusical/DernierSong/La3piano.mp3"></audio>
+            <audio class="SI" src="js/fichierMusical/DernierSong/Si.mp4"></audio>
+            <div class="piano">
+                <div class="YourSong">
+                    <div class="touch" id="Q"></div>
+                    <div class="touch" id="S"></div>
+                    <div class="touch" id="D"></div>
+                    <div class="touch" id="F"></div>
+                    <div class="touch" id="G"></div>
+                    <div class="touch" id="H"></div>
+                    <div class="touch" id="J"></div>
+                </div>
+                <div class="button" id="last">
+                    <p class="play" id="third">Play</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <ul class="dernier">
+                <li>Piano</li>
+                <li>Sons</li>
+                <li>Musique</li>
+                <li>Jeux</li>
+            </ul>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
